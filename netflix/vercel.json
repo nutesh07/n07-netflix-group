@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "public": "build",
+    "rewrites": [
+      {
+        "source": "/api/(.*)",
+        "destination": "../backend/index.js"
+      }
+    ]
+  }
+  
